@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E7A955282A13A8DA18FDECE /* Pods_NotBoredV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32720513895D97FDEE0BE9FF /* Pods_NotBoredV1.framework */; };
 		51094D80284FFBB3008E23BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51094D7F284FFBB3008E23BF /* AppDelegate.swift */; };
 		51094D82284FFBB3008E23BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51094D81284FFBB3008E23BF /* SceneDelegate.swift */; };
 		51094D84284FFBB3008E23BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51094D83284FFBB3008E23BF /* HomeViewController.swift */; };
 		51094D87284FFBB3008E23BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51094D85284FFBB3008E23BF /* Main.storyboard */; };
 		51094D89284FFBB6008E23BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51094D88284FFBB6008E23BF /* Assets.xcassets */; };
 		51094D8C284FFBB6008E23BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51094D8A284FFBB6008E23BF /* LaunchScreen.storyboard */; };
+		512A3F952852947B00FE57CE /* ShowActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512A3F942852947B00FE57CE /* ShowActivityViewController.swift */; };
+		512A9CE0285CFA7500034C3D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512A9CDF285CFA7500034C3D /* Response.swift */; };
+		512D09FB285AD05900CE7A0E /* ParticipantsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D09FA285AD05900CE7A0E /* ParticipantsProtocol.swift */; };
+		5187A8422857E6BA00353717 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8412857E6BA00353717 /* BasicTableViewCell.swift */; };
+		5187A8442857E72500353717 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8432857E72500353717 /* ListViewController.swift */; };
+		5187A8462857E78900353717 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8452857E78900353717 /* RandomViewController.swift */; };
+		5187A8482857EE2000353717 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8472857EE2000353717 /* TermsAndConditionsViewController.swift */; };
+		5187A84B2857EE9E00353717 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A84A2857EE9E00353717 /* Activity.swift */; };
+		5187A84D2857EEB900353717 /* Participants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A84C2857EEB900353717 /* Participants.swift */; };
+		5187A84F2857EECF00353717 /* HelperApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A84E2857EECF00353717 /* HelperApi.swift */; };
+		5187A8512857EF2B00353717 /* StructActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8502857EF2B00353717 /* StructActivity.swift */; };
+		5187A8542857EF8600353717 /* EnumPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8532857EF8600353717 /* EnumPrice.swift */; };
+		5187A8562857EFB200353717 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187A8552857EFB200353717 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32720513895D97FDEE0BE9FF /* Pods_NotBoredV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotBoredV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51094D7C284FFBB3008E23BF /* NotBoredV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotBoredV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51094D7F284FFBB3008E23BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51094D81284FFBB3008E23BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		51094D88284FFBB6008E23BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51094D8B284FFBB6008E23BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51094D8D284FFBB6008E23BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512A3F942852947B00FE57CE /* ShowActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowActivityViewController.swift; sourceTree = "<group>"; };
+		512A9CDF285CFA7500034C3D /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "../../../../../Downloads/Integrador_iOs-Alvaro/NotBoredTest/Model/Response.swift"; sourceTree = "<group>"; };
+		512D09FA285AD05900CE7A0E /* ParticipantsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsProtocol.swift; sourceTree = "<group>"; };
+		5187A8412857E6BA00353717 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		5187A8432857E72500353717 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5187A8452857E78900353717 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		5187A8472857EE2000353717 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		5187A84A2857EE9E00353717 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		5187A84C2857EEB900353717 /* Participants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participants.swift; sourceTree = "<group>"; };
+		5187A84E2857EECF00353717 /* HelperApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperApi.swift; sourceTree = "<group>"; };
+		5187A8502857EF2B00353717 /* StructActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructActivity.swift; sourceTree = "<group>"; };
+		5187A8532857EF8600353717 /* EnumPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPrice.swift; sourceTree = "<group>"; };
+		5187A8552857EFB200353717 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		A0E1EC6505BF0F476D5D89A7 /* Pods-NotBoredV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotBoredV1.release.xcconfig"; path = "Target Support Files/Pods-NotBoredV1/Pods-NotBoredV1.release.xcconfig"; sourceTree = "<group>"; };
+		CD3F3A5D03ED26F2B7632BDD /* Pods-NotBoredV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotBoredV1.debug.xcconfig"; path = "Target Support Files/Pods-NotBoredV1/Pods-NotBoredV1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7A955282A13A8DA18FDECE /* Pods_NotBoredV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				51094D7E284FFBB3008E23BF /* NotBoredTest */,
 				51094D7D284FFBB3008E23BF /* Products */,
+				80AF7625D4A0382F573A6C8D /* Pods */,
+				63F403E9D147C34C7492DC44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +89,9 @@
 		51094D7E284FFBB3008E23BF /* NotBoredTest */ = {
 			isa = PBXGroup;
 			children = (
+				5187A8522857EF7100353717 /* Enums */,
+				5187A8492857EE4900353717 /* Model */,
+				5187A8402857E6A600353717 /* UI */,
 				51094D96285008E3008E23BF /* Controller */,
 				51094D7F284FFBB3008E23BF /* AppDelegate.swift */,
 				51094D81284FFBB3008E23BF /* SceneDelegate.swift */,
@@ -71,8 +107,59 @@
 			isa = PBXGroup;
 			children = (
 				51094D83284FFBB3008E23BF /* HomeViewController.swift */,
+				512A3F942852947B00FE57CE /* ShowActivityViewController.swift */,
+				5187A8432857E72500353717 /* ListViewController.swift */,
+				5187A8452857E78900353717 /* RandomViewController.swift */,
+				5187A8472857EE2000353717 /* TermsAndConditionsViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5187A8402857E6A600353717 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5187A8412857E6BA00353717 /* BasicTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5187A8492857EE4900353717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5187A84A2857EE9E00353717 /* Activity.swift */,
+				5187A84C2857EEB900353717 /* Participants.swift */,
+				512A9CDF285CFA7500034C3D /* Response.swift */,
+				5187A84E2857EECF00353717 /* HelperApi.swift */,
+				5187A8502857EF2B00353717 /* StructActivity.swift */,
+				512D09FA285AD05900CE7A0E /* ParticipantsProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5187A8522857EF7100353717 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5187A8532857EF8600353717 /* EnumPrice.swift */,
+				5187A8552857EFB200353717 /* Categories.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		63F403E9D147C34C7492DC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32720513895D97FDEE0BE9FF /* Pods_NotBoredV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AF7625D4A0382F573A6C8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F3A5D03ED26F2B7632BDD /* Pods-NotBoredV1.debug.xcconfig */,
+				A0E1EC6505BF0F476D5D89A7 /* Pods-NotBoredV1.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51094D90284FFBB6008E23BF /* Build configuration list for PBXNativeTarget "NotBoredV1" */;
 			buildPhases = (
+				92C2D443FD1BCFFD6A9F293C /* [CP] Check Pods Manifest.lock */,
 				51094D78284FFBB3008E23BF /* Sources */,
 				51094D79284FFBB3008E23BF /* Frameworks */,
 				51094D7A284FFBB3008E23BF /* Resources */,
+				185021751EA5E9BBE943A5E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +230,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		185021751EA5E9BBE943A5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotBoredV1/Pods-NotBoredV1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotBoredV1/Pods-NotBoredV1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotBoredV1/Pods-NotBoredV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C2D443FD1BCFFD6A9F293C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotBoredV1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51094D78284FFBB3008E23BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5187A84B2857EE9E00353717 /* Activity.swift in Sources */,
+				512A3F952852947B00FE57CE /* ShowActivityViewController.swift in Sources */,
+				5187A8562857EFB200353717 /* Categories.swift in Sources */,
+				512D09FB285AD05900CE7A0E /* ParticipantsProtocol.swift in Sources */,
 				51094D84284FFBB3008E23BF /* HomeViewController.swift in Sources */,
+				5187A8512857EF2B00353717 /* StructActivity.swift in Sources */,
+				5187A84D2857EEB900353717 /* Participants.swift in Sources */,
+				5187A8422857E6BA00353717 /* BasicTableViewCell.swift in Sources */,
+				512A9CE0285CFA7500034C3D /* Response.swift in Sources */,
 				51094D80284FFBB3008E23BF /* AppDelegate.swift in Sources */,
 				51094D82284FFBB3008E23BF /* SceneDelegate.swift in Sources */,
+				5187A8542857EF8600353717 /* EnumPrice.swift in Sources */,
+				5187A8482857EE2000353717 /* TermsAndConditionsViewController.swift in Sources */,
+				5187A84F2857EECF00353717 /* HelperApi.swift in Sources */,
+				5187A8462857E78900353717 /* RandomViewController.swift in Sources */,
+				5187A8442857E72500353717 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +434,7 @@
 		};
 		51094D91284FFBB6008E23BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3F3A5D03ED26F2B7632BDD /* Pods-NotBoredV1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,6 +464,7 @@
 		};
 		51094D92284FFBB6008E23BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E1EC6505BF0F476D5D89A7 /* Pods-NotBoredV1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
